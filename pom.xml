@@ -8,8 +8,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>SpringMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>
-	<build>
-  <plugins>
+  <build>
+   <plugins>
       <plugin>
       <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -32,6 +32,7 @@
                 </configuration>
 	   </plugin>
 	 </plugins>
+	   <finalName>SpringMVC</finalName>
   </build>
   <dependencies>
     <dependency>
@@ -67,7 +68,5 @@
 </dependency>
 
   </dependencies>
-  <build>
-    <finalName>SpringMVC</finalName>
-  </build>
+  
 </project>

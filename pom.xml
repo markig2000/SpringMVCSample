@@ -5,7 +5,7 @@
   <groupId>com.javatpoint</groupId>
   <artifactId>maven-war-plugin</artifactId>
   <packaging>war</packaging>
-  <version>3.2.0</version>
+  <version>2.2</version>
   <name>SpringMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <build>  

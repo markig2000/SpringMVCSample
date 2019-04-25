@@ -10,6 +10,13 @@
   <url>http://maven.apache.org</url>
   <build>  
 	<finalName>SpringMVC</finalName>
+	  <plugins>
+		  <plugin>
+  <groupId>org.codehaus.cargo</groupId>
+  <artifactId>cargo-maven2-plugin</artifactId>
+  <version>1.0</version>
+</plugin>
+	  </plugins>
   </build>
   <dependencies>
     <dependency>

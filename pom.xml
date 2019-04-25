@@ -12,10 +12,10 @@
 	<finalName>SpringMVC</finalName>
 	  <plugins>
 		  <plugin>
-  <groupId>org.codehaus.cargo</groupId>
-  <artifactId>cargo-maven2-plugin</artifactId>
-  <version>1.0</version>
-</plugin>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>1.0.1.Final</version>
+            </plugin>
 	  </plugins>
   </build>
   <dependencies>
@@ -30,18 +30,6 @@
     <artifactId>servlet-api</artifactId>
     <version>3.0-alpha-1</version>
 </dependency>
-	  
-	  <dependency>
-
-                                        <groupId>org.wildfly.arquillian</groupId>
-
-                                        <artifactId>wildfly-arquillian-container-remote</artifactId>
-
-                                        <version>1.1.0.Final</version>
-
-                                        <scope>test</scope>
-
-                                </dependency>
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-core</artifactId>

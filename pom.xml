@@ -10,20 +10,7 @@
   <url>http://maven.apache.org</url>
   <build>  
 	<finalName>SpringMVC</finalName>
-	  <plugins>
-		  <plugin>
-                <groupId>org.wildfly.plugins</groupId>
-                <artifactId>wildfly-maven-plugin</artifactId>
-                <version>1.0.1.Final</version>
-			  <configuration>
-				  <force>true</force>
-			<hostname>127.0.0.1</hostname>
-			<port>9990</port>
-			<username>nithya</username>
-			<password>password@123</password>
-			</configuration>
-            </plugin>
-	  </plugins>
+	  
   </build>
   <dependencies>
     <dependency>
